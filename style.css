@@ -184,14 +184,11 @@ margin-left: 25px;
     background-repeat: no-repeat;
     background-position-y: -200px;
     padding:70px;
-
-
 }
 .form h1 {
     font-size: 2.5em;
     font-weight: 400;
     margin-bottom: 35px;
-
 }
 #email{
     padding: 25px 200px 25px 15px;
@@ -202,4 +199,55 @@ margin-left: 25px;
     padding: 23px 35px;
     background-color: black;
     color: white;
+}
+
+/*     ----- LATEST NEWS  -----     */
+
+.news-sect{
+    text-align: center;
+    padding: 45px 30px;
+    height: 800px;
+}
+.news-sect h1{
+    font-weight: 200;
+    font-size: 3em;
+    border-bottom: 1px solid #575757 ;
+    max-width: 300px;
+    margin: 60px auto 70px auto;
+}
+.news-sect h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3em;
+    font-weight: 200;
+    margin-top: -15px;
+}
+.news-text{
+    font-family: 'Lora', serif;
+    word-spacing: 7px;
+    margin: 25px auto;
+}
+.news-sect a{
+    color: #575757;
+    font-weight: 600;
+}
+.date{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 700;
+    color: #529F0F;
+    word-spacing: 1px;
+}
+.news{
+    justify-content: center;
+    text-align: start;
+}
+
+.not{
+    width: 25%;
+    margin: 0px 7px;
+    overflow: hidden;
+}
+.not img{
+    width: 300px;
+    
 }
