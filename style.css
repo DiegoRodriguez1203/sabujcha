@@ -31,8 +31,7 @@ p{
 }
 .logo{
     display: block;
-    margin: auto;
-    
+    margin: auto; 
 }
 .material-symbols-outlined{
     transform: scaleX(-1);
@@ -170,3 +169,8 @@ margin-left: 25px;
     font-size: 0.8em;
 }
 
+/*     ----- NEW PRODUCTS  -----     */
+
+.new{
+    height: 800px;
+}
