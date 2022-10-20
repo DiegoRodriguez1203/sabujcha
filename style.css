@@ -97,3 +97,56 @@ nav a{
 font-weight: 500;
 margin-left: 25px;
 }
+
+/*     ----- LATEST PRODUCTS  -----     */
+
+.products{
+    margin: auto;
+    background-image: url("/img/bg-1.jpg");
+    padding: 50px 250px;
+    text-align: center;
+}
+.products h1{
+    font-size: 2.4em;
+    font-weight: 400;
+}
+.products h2{
+    width: 65%;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: -15px auto 15px auto;
+}
+.products p{
+    font-size: 1.15em;
+    color: #575757;
+    font-weight: 500;
+    line-height: 1;
+
+}
+.pn{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #333333;
+}
+.pv{
+    font-weight: 600;
+    font-size: 0.8em;
+    color: #575757;
+    text-decoration: line-through;
+    margin: auto;
+}
+
+.grid-products{
+    text-align: start;
+    width: 100%;
+    height: 320px;
+    display: grid;
+    grid-template: 1fr 1fr/repeat(4, 1fr);
+    justify-content: center;
+    gap: 15px;
+    margin-top: 60px;
+}
+.grid-products a img{
+    width: 200px;
+    border: 1px solid rgb(0, 0, 0, 0.03);
+}
