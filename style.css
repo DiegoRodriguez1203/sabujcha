@@ -5,7 +5,6 @@
 body{
     font-size: 13px;
     padding: 20px 35px;
-
 }
 h1,h2{
     font-family: 'Playfair Display', serif;
@@ -144,6 +143,7 @@ margin-left: 25px;
     justify-content: center;
     gap: 15px;
     margin-top: 60px;
+
 }
 .grid-products a img{
     width: 200px;
@@ -173,4 +173,33 @@ margin-left: 25px;
 
 .new{
     height: 800px;
+    margin-bottom: -35px;
+}
+
+/*     ----- FORM  -----     */
+.form{
+    height: 250px;
+    text-align: center;
+    background-size: 1800px ;
+    background-repeat: no-repeat;
+    background-position-y: -200px;
+    padding:70px;
+
+
+}
+.form h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 35px;
+
+}
+#email{
+    padding: 25px 200px 25px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    background-color: transparent;
+}
+#email-buton{
+    padding: 23px 35px;
+    background-color: black;
+    color: white;
 }
