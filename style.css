@@ -150,3 +150,23 @@ margin-left: 25px;
     width: 200px;
     border: 1px solid rgb(0, 0, 0, 0.03);
 }
+
+/*     ----- TESTIMONIO  -----     */
+
+.test{
+    text-align: center;
+    flex-direction: column;
+    margin: 100px 20px;
+}
+.test h1{
+    font-weight: 200;
+    width: 65%;
+}
+.test p{
+    font-weight: 600;
+}
+.last-p-test{
+    color:#57575780;
+    font-size: 0.8em;
+}
+
