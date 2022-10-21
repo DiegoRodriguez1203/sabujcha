@@ -206,7 +206,7 @@ margin-left: 25px;
 .news-sect{
     text-align: center;
     padding: 45px 30px;
-    height: 800px;
+    height: 750px;
 }
 .news-sect h1{
     font-weight: 200;
@@ -249,5 +249,34 @@ margin-left: 25px;
 }
 .not img{
     width: 300px;
-    
+}
+
+/*     ----- BRANDS  -----     */
+.brands{
+    text-align: center;
+    padding: 70px 100px;
+}
+
+/*     -----  FOOTER  -----     */
+
+.footer{
+    padding: 20px 100px 50px 100px;
+    background-color: #f8f8f8;
+    margin: auto;
+    display: grid;
+    grid-template: 1fr / repeat(4,1fr);
+}
+.cont-footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer h5{
+    font-size: 1.5em;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+}
+.footer a{
+    font-size: 0.9em;
+    color: #575757;
+    line-height: 2.5;
 }
