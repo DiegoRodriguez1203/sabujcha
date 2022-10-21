@@ -45,6 +45,7 @@ nav a{
     color: #333333;
 }
 
+
 /*     -----  SLIDE -----     */
 
 .slide{
@@ -253,14 +254,17 @@ margin-left: 25px;
 
 /*     ----- BRANDS  -----     */
 .brands{
-    text-align: center;
     padding: 70px 100px;
+    justify-content: center;
+}
+.brands img{
+    margin: auto 15px;
 }
 
 /*     -----  FOOTER  -----     */
 
 .footer{
-    padding: 20px 100px 50px 100px;
+    padding: 20px 100px 50px 130px;
     background-color: #f8f8f8;
     margin: auto;
     display: grid;
@@ -277,6 +281,34 @@ margin-left: 25px;
 }
 .footer a{
     font-size: 0.9em;
+    font-weight: 500;
     color: #575757;
     line-height: 2.5;
+    font-family: 'Lora', serif;
+}
+
+/*     -----  SIGN  -----     */
+
+.sign{
+    padding: 20px 60px;
+}
+
+/*     -----  CIRCULO DE DESCUENTO  -----     */
+
+.circ-desc{
+    font-size: 0.9em;
+    font-weight: 800;
+    color: white;
+    background-color: #529F0F;
+    width: 39px;
+    height: 39px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Lora', serif;
 }
