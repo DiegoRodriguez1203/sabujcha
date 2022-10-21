@@ -16,12 +16,15 @@ h3, a{
 p{
     font-family: 'Work Sans', sans-serif;
 }
-
+.max-cont{
+    margin: auto;
+}
 /*     -----  MENU -----     */
 .flex-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .logo-cont{
     width: 96%;
@@ -175,6 +178,8 @@ margin-left: 25px;
 .new{
     height: 800px;
     margin-bottom: -35px;
+    background-image: none;
+    background-color: #f8f8f8;
 }
 
 /*     ----- FORM  -----     */
@@ -206,14 +211,14 @@ margin-left: 25px;
 
 .news-sect{
     text-align: center;
-    padding: 45px 30px;
+    padding: 45px 3%;
     height: 750px;
 }
 .news-sect h1{
     font-weight: 200;
     font-size: 3em;
     border-bottom: 1px solid #575757 ;
-    max-width: 300px;
+    width: 210px;
     margin: 60px auto 70px auto;
 }
 .news-sect h3{
@@ -244,12 +249,16 @@ margin-left: 25px;
 }
 
 .not{
+
     width: 25%;
     margin: 0px 7px;
     overflow: hidden;
+    
+
 }
 .not img{
-    width: 300px;
+    width: 250px;
+    
 }
 
 /*     ----- BRANDS  -----     */
@@ -258,7 +267,7 @@ margin-left: 25px;
     justify-content: center;
 }
 .brands img{
-    margin: auto 15px;
+    margin: auto auto;
 }
 
 /*     -----  FOOTER  -----     */
@@ -312,3 +321,146 @@ margin-left: 25px;
     margin-left: 10px;
     font-family: 'Lora', serif;
 }
+
+@media only screen and (max-width: 640px){
+
+body{
+    padding: 0px 5px;
+}
+
+/*  ---  MENU  ---  */
+
+.menu-flex{
+    padding: 0px 5%;
+    align-items: center;
+    margin-top: 25px;
+}
+.logo-cont{
+    width: 30%;
+    position: relative;
+    z-index: 1;
+    margin: 0px;
+
+}
+.logo{
+margin: 0px;
+width: 220px;
+}
+
+.menu-nav-left{
+    display: none;
+
+}
+.menu-nav-right{
+    width: 25%;
+    font-size: 1.7em;
+}
+.material-symbols-outlined{
+    width: 100px;
+}
+
+/*  ---  SLIDE  ---  */
+
+.slide{
+    height: 700px;
+    background-size: 1800px;  
+     
+}
+.slide h1{
+    font-size: 4em;
+    font-weight: 400;
+    margin-top: -20px; 
+}
+.slide a{
+    color: #333333;
+    font-size: 2.7em;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+/*  ---  DOUBLE BANNER  ---  */
+
+.banner-cont{
+    flex-direction: column;
+}
+.banner{
+    width: 95%;
+    height: 250px;
+    margin: 20px 15px;
+}
+
+.banner h2{
+    font-size: 4em;
+}
+.banner p{
+font-weight: 400;
+font-size: 2em;
+}
+
+/*  ---  LATEST AND NEW PRODUCTS  ---  */
+
+.products{
+    padding: 20px 20px;
+    text-align: center;
+}
+.products h1{
+    font-size: 2.7em;
+    font-weight: 300;
+}
+.products h2{
+    width: 95%;
+    font-size: 2em;
+    font-weight: 200;
+    margin: 0px auto 15px auto;
+}
+.products p{
+    font-size: 2.3em;
+    font-weight: 500;
+    line-height: 0.5;
+}
+.pn{
+    font-size: 0.8em;
+    font-weight: 600;
+}
+.pv{
+    font-weight: 600;
+    font-size: 0.7em;
+}
+
+/*  ---  PRODUCTS GRID  ---  */
+.grid-products{
+
+    text-align: start;
+    width: 100%;
+    height: 600px;
+    grid-template: 1fr/repeat(1, 1fr);
+    overflow: hidden;
+    margin-top: 60px;
+    justify-items: center;
+}
+.grid-products a img{
+    width: 450px;
+}
+
+
+
+
+
+
+.brands{
+    display: none;
+}
+
+.footer{
+    display: none;
+}
+.form{
+    display: none;
+}
+.sign{
+    display: none;
+}
+
+
+}
+
